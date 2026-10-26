@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuralStack — AI Tools, Explained Fast</title>
+  <meta name="description" content="One new AI tool explained in 60 seconds, every day. Free tools, tested workflows, zero hype." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NeuralStack — AI Tools, Explained Fast" />
+  <meta property="og:description" content="One new AI tool explained in 60 seconds, every day." />
+  <meta property="og:image" content="og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <span class="logo">◈ NeuralStack</span>
+      <nav>
+        <a href="#videos">Videos</a>
+        <a href="#tools">Tools We Use</a>
+        <a href="#roadmap">Roadmap</a>
+        <a id="nav-subscribe" class="btn btn-primary btn-sm" href="#" target="_blank" rel="noopener">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Faceless AI-tools channel · Daily Shorts + weekly deep dives</p>
+      <h1>Every AI tool worth knowing,<br />explained in 60 seconds.</h1>
+      <p class="sub">
+        We test the newest AI tools so you don't have to. Honest demos, real
+        workflows, zero hype.
+      </p>
+      <div class="hero-cta">
+        <a id="hero-subscribe" class="btn btn-primary" href="#" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        <a class="btn btn-ghost" href="#videos">Watch latest</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="stat-subs">—</strong><span>goal: 1K subs</span></div>
+        <div><strong>60s</strong><span>avg. video</span></div>
+        <div><strong>3×/wk</strong><span>upload cadence</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos" class="section">
+    <h2>Latest videos</h2>
+    <p class="section-sub">New Shorts daily. Deep-dive every Sunday.</p>
+    <div id="video-grid" class="video-grid"></div>
+    <p class="hint">Watch right here — or subscribe for daily drops. Uploaded to YouTube? Add the video <code>id</code> in <code>script.js → CONFIG.videos</code> for a link-out.</p>
+  </section>
+
+  <section id="tools" class="section section-alt">
+    <h2>Tools we use</h2>
+    <p class="section-sub">The exact stack behind every video. Links may earn us a commission.</p>
+    <div id="tools-grid" class="tools-grid"></div>
+  </section>
+
+  <section id="roadmap" class="section">
+    <h2>90-day growth roadmap</h2>
+    <p class="section-sub">The plan this channel follows — updated as we hit milestones.</p>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-badge">Weeks 1–4</span>
+        <h3>Launch &amp; volume</h3>
+        <ul>
+          <li>1 Short/day + 1 long video/week</li>
+          <li>Batch-produce 10 Shorts before launch</li>
+          <li>Affiliate links live from video #1</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <span class="tl-badge">Weeks 5–8</span>
+        <h3>Double down on hits</h3>
+        <ul>
+          <li>Find top 10% videos → make 3 variants of each</li>
+          <li>A/B test thumbnails &amp; hooks</li>
+          <li>Launch newsletter → own the audience</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <span class="tl-badge">Weeks 9–13</span>
+        <h3>Monetize &amp; scale</h3>
+        <ul>
+          <li>Apply to YPP at 1K subs / 4K hours</li>
+          <li>Pitch 3 sponsorships in the niche</li>
+          <li>Repurpose Shorts to TikTok &amp; Reels</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="newsletter">
+      <h2>Get the weekly AI tool brief</h2>
+      <p>One email. Five tools. Zero fluff.</p>
+      <form id="newsletter-form">
+        <input type="email" id="email" placeholder="you@email.com" required />
+        <button class="btn btn-primary" type="submit">Join free</button>
+      </form>
+      <p id="form-msg" class="form-msg"></p>
+      <button id="export-emails" class="link-btn" type="button">Export subscriber list (CSV)</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>◈ NeuralStack · Built to grow. Replace placeholders in <code>script.js</code> to go live.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

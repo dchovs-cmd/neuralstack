@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medications-tractor-replaced-minimal.trycloudflare.com/sitemap.xml
